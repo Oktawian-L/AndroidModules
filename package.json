@@ -1,23 +1,15 @@
 {
-  "name": "AndroidModules",
-  "version": "0.0.1",
+  "name": "sum4fun",
+  "version": "0.0.0",
+  "description": "Sum4Fun",
+  "author": null,
   "private": true,
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
-  },
+  "main": "node_modules/expo/AppEntry.js",
   "dependencies": {
-    "react": "16.6.3",
-    "react-native": "0.58.6"
-  },
-  "devDependencies": {
-    "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "24.1.0",
-    "jest": "24.1.0",
-    "metro-react-native-babel-preset": "0.53.0",
-    "react-test-renderer": "16.6.3"
-  },
-  "jest": {
-    "preset": "react-native"
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "prop-types": "15.7.2",
+    "react-native-paper": "2.2.8"
   }
 }
