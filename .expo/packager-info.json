@@ -1,5 +1,9 @@
 {
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 16096
+  "packagerPid": 9284,
+  "devToolsPort": 19002,
+  "expoServerNgrokUrl": "https://mk-v8s.oktawian-l.androidmodules.exp.direct",
+  "packagerNgrokUrl": "https://packager.mk-v8s.oktawian-l.androidmodules.exp.direct",
+  "ngrokPid": 18488
 }
