@@ -11,6 +11,9 @@ class RandomNumber extends React.Component{
   };
   //metoda wywolana potem na kliku
   handlePress= () =>{
+    //sprawdz czy mozna zaznaczyc
+    if(this.props.isDisabled){return;} 
+    //wywolaj zaznaczenie
     this.props.onPress(this.props.id);
   };
 
