@@ -108,7 +108,7 @@ randomNumbers = shuffle(this.randomNumbers);
                 onPress={this.selectNumber}
               />
             )
-            //<Text style={styles.random} key={index}>{randomNumber}</Text>
+            
           )}
         </View>
         <Button title="Play again" onPress={this.props.onPlayAgain}/>
